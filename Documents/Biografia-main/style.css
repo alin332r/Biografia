@@ -1,0 +1,171 @@
+/* Definir o corpo com fundo suave e fontes elegantes */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Fundo suave, verde claro */
+    color: #000000; /* Texto em preto */
+}
+
+/* Cabeçalho com fundo verde */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #388e3c; /* Verde vibrante */
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Centralizar o título h1 */
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Seção de imagem circular com borda verde */
+.image-container img {
+    border-radius: 50%;
+    border: 5px solid #388e3c; /* Verde vibrante */
+    margin-top: 20px;
+}
+
+/* Área de conteúdo com fundo branco e texto preto */
+.content {
+    padding: 40px 20px;
+    padding-bottom: 60px;
+    min-height: 80vh;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto em preto */
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Centralizar subtítulos h2 */
+.content h2 {
+    color: #388e3c; /* Verde vibrante para os títulos */
+    margin-bottom: 20px;
+    text-align: center; /* Centralizando os subtítulos */
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Seção de imagem com bordas verdes e centralizado */
+.section-img {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Ajustando o tamanho das imagens na seção */
+.section-img img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #388e3c; /* Verde vibrante */
+}
+
+/* Rodapé com fundo verde escuro */
+footer {
+    text-align: center;
+    background-color: #2e7d32; /* Verde escuro */
+    color: white;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-link {
+    color: #a5d6a7; /* Verde claro para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Seção de músicas */
+#musicas {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f8e9; /* Verde muito suave para o fundo */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.musica-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.musica iframe {
+    border-radius: 8px;
+    border: none;
+}
+
+/* Estilo da linha do tempo */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f8e9; /* Verde suave para fundo */
+}
+
+.timeline-item {
+    background-color: #388e3c; /* Verde vibrante */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: scale(1.05);
+}
+
+/* Caixa de detalhes */
+.details-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    color: #000000; /* Texto em preto */
+}
+
+.details-box.active {
+    display: block;
+}
+
+.details-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.details-box p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo de transição para imagens */
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05); /* Um pequeno zoom nas imagens ao passar o mouse */
+}
+
+
+
